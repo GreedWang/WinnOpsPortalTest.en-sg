@@ -1,0 +1,69 @@
+{
+  "docsets_to_publish": [
+    {
+      "docset_name": "helloworld",
+      "build_source_folder": "helloworld",
+      "build_output_subfolder": "helloworld",
+      "locale": "en-sg",
+      "monikers": [],
+      "moniker_ranges": [],
+      "open_to_public_contributors": false,
+      "build_entry_point": "docs",
+      "template_folder": "_themes"
+    },
+    {
+      "docset_name": "pdftesting",
+      "build_source_folder": "pdftesting",
+      "build_output_subfolder": "pdftesting",
+      "locale": "en-sg",
+      "monikers": [],
+      "moniker_ranges": [],
+      "open_to_public_contributors": false,
+      "build_entry_point": "docs",
+      "template_folder": "_themes"
+    },
+    {
+      "docset_name": "WinnOpsPortalTest",
+      "build_source_folder": "20171117test",
+      "build_output_subfolder": "WinnOpsPortalTest",
+      "locale": "en-sg",
+      "monikers": [],
+      "moniker_ranges": [],
+      "open_to_public_contributors": false,
+      "build_entry_point": "docs",
+      "template_folder": "_themes"
+    }
+  ],
+  "notification_subscribers": [],
+  "branches_to_filter": [
+    "live-sxs",
+    "master-sxs"
+  ],
+  "continue_with_document_error": true,
+  "skip_source_output_uploading": false,
+  "need_preview_pull_request": false,
+  "contribution_branch_mappings": {},
+  "dependent_repositories": [
+    {
+      "path_to_root": "_themes",
+      "url": "https://github.com/Microsoft/templates.docs.msft.en-sg",
+      "branch": "master",
+      "branch_mapping": {}
+    },
+    {
+      "path_to_root": "_repo.en-us",
+      "url": "https://github.com/GreedWang/WinnOpsPortalTest",
+      "branch": "live",
+      "branch_mapping": {
+        "live": "live",
+        "master": "master"
+      }
+    }
+  ],
+  "branch_target_mapping": {
+    "live": [
+      "Publish"
+    ]
+  },
+  "need_generate_pdf_url_template": true
+}
