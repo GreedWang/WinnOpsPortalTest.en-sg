@@ -12,17 +12,6 @@
       "template_folder": "_themes"
     },
     {
-      "docset_name": "pdftesting",
-      "build_source_folder": "pdftesting",
-      "build_output_subfolder": "pdftesting",
-      "locale": "en-sg",
-      "monikers": [],
-      "moniker_ranges": [],
-      "open_to_public_contributors": false,
-      "build_entry_point": "docs",
-      "template_folder": "_themes"
-    },
-    {
       "docset_name": "WinnOpsPortalTest",
       "build_source_folder": "20171117test",
       "build_output_subfolder": "WinnOpsPortalTest",
